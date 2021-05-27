@@ -33,7 +33,7 @@ Further documentation on working with Anaconda environments can be found [here](
 The exercise is completed as a Jupyter notebook available [here](./Starbucks.ipynb). Inside that, some functions from the [`test_results.py`](./test_results.py) script are loaded.
 
 ### Training Data Analysis
-In the first part of the notebook we load the [training data](./trainig.csv) and evaluate them from a statistical perspective, considering two evaluation metrics:
+In the first part of the notebook we load the [training data](./training.csv) and evaluate them from a statistical perspective, considering two evaluation metrics:
 
 * IRR
 * NRR
