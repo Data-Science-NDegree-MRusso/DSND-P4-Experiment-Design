@@ -1,7 +1,7 @@
 # Experiment Design
 
 ## Overview
-This is portfolio exercise completed as part of the Udacity Data Science Nanodegree. Being a _portfolio_ activity was not subject to actual rating.  
+This was a portfolio exercise completed as part of the Udacity Data Science Nanodegree. Being a _portfolio_ activity was not subject to actual rating.  
 
 The dataset provided was originally used as a take-home assignment provided by Starbucks for their job candidates. The data for this exercise consists of about 120,000 data points split in a 2:1 ratio among training and test files. 
 
