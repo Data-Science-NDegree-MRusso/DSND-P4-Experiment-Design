@@ -30,7 +30,7 @@ dsnd-proj4        /usr/local/anaconda3/envs/dsnd-proj4
 Further documentation on working with Anaconda environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
 
 ## Results
-
+The exercise is completed as a Jupyter notebook available [here](./Starbucks.ipynb). Inside that, some functions from the [`test_results.py`](./test_results.py) script.
 
 ## License
  <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a><br />This work is licensed under an <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
