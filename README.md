@@ -38,12 +38,16 @@ In the first part of the notebook we load the [training data](./training.csv) an
 * **Incremental Response Rate (IRR)**:   
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of customers in the purchasers group (_treatment_) minus the ratio of the number of purchasers in the non-promotional group to the total number of customers in the non-promotional group (_control_).
 
-$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
+<p align="center">
+  <img src="./pictures/IRR.png">
+</p>
 
 * **Net Incremental Revenue (NIR)**:   
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number of purchasers who were not given the promotion.
 
-$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
+<p align="center">
+  <img src="./pictures/NIR.png">
+</p>
 
 Moreover, as an invariant metric we analyse the proportions of Treatment/Control groups with respect to the total population. This allows us to conclude that the randomization of participants was conducted properly.
 
@@ -56,7 +60,12 @@ For the sake of this analysis I compared 4 differnt types of classifier:
 * [Support Vector](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 * [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
 
-They are compared in terms of accuracy and confusion matrix against the [test data](./Test.csv) provided.  
+They are compared against the [test data](./Test.csv) provided, both in terms of accuracy and confusion matrix: 
+
+<p align="center">
+  <img src="./pictures/Confusion_Matrices.png">
+</p>
+
 As a note on this, the data included very few cases in which customers receiving the promotion ended up actually completing a purchase; this affected the overall performances of the classifiers.
 
 ### Evaluation of a Promotion Strategy
