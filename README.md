@@ -32,5 +32,32 @@ Further documentation on working with Anaconda environments can be found [here](
 ## Results
 The exercise is completed as a Jupyter notebook available [here](./Starbucks.ipynb). Inside that, some functions from the [`test_results.py`](./test_results.py) script are loaded.
 
+### Training Data Analysis
+In the first part of the notebook we load the [training data](./trainig.csv) and evaluate them from a statistical perspective, considering two evaluation metrics:
+
+* IRR
+* NRR
+
+Moreover, as an invariant metric we analyse the proportions of Treatment/Control groups with respect to the total population. This allows us to conclude that the randomization of participants was conducted properly.
+
+### Definition of a Classifier
+After having looked at the training data, we can move forward and use them to train a classifier to identify whether or not a customer would react positively to the promotion.
+For the sake of this analysis I compared 4 differnt types of classifier:
+
+* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+* [K-Nearest Neighbor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+* [Support Vector](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+* [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+
+They are compared in terms of accuracy and confusion matrix against the [test data](./Test.csv) provided.  
+As a note on this, the data included very few cases in which customers receiving the promotion ended up actually completing a purchase; this affected the overall performances of the classifier.
+
+### Evaluation of a Promotion Strategy
+Once selected a classifier from the above list, we can compare its predictions with the results of the actual solution deloyed at Starbucs, in terms of the 2 evaluation metrics.
+
+I opted for the Random Forest classifier, and this led to a better IRR but a worse NRR than the reference.
+
+
+
 ## License
  <a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" style="border-width:0" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a><br />This work is licensed under an <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
