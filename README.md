@@ -1,4 +1,5 @@
 # Experiment Design
+[![Udacity - Data Sciencd NanoDegree](https://img.shields.io/badge/Udacity-DSND-blue?style=plastic&logo=udacity)](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
 
 ## Overview
 This was a portfolio exercise completed as part of the Udacity Data Science Nanodegree. Being a _portfolio_ activity was not subject to actual rating.  
