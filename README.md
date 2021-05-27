@@ -50,7 +50,7 @@ For the sake of this analysis I compared 4 differnt types of classifier:
 * [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
 
 They are compared in terms of accuracy and confusion matrix against the [test data](./Test.csv) provided.  
-As a note on this, the data included very few cases in which customers receiving the promotion ended up actually completing a purchase; this affected the overall performances of the classifier.
+As a note on this, the data included very few cases in which customers receiving the promotion ended up actually completing a purchase; this affected the overall performances of the classifiers.
 
 ### Evaluation of a Promotion Strategy
 Once selected a classifier from the above list, we can compare its predictions with the results of the actual solution deloyed at Starbucs, in terms of the 2 evaluation metrics.
