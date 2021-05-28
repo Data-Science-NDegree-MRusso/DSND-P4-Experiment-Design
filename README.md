@@ -1,4 +1,4 @@
-# Experiment Design
+# Experiment Design Project
 [![Udacity - Data Sciencd NanoDegree](https://img.shields.io/badge/Udacity-DSND-blue?style=plastic&logo=udacity)](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
 
 ## Overview
