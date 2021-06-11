@@ -12,7 +12,7 @@ Each data point includes one column indicating whether or not an individual was 
 The final goal is to provide a strategy to predict whether or not a Starbucks customer would react fovorably to a promotion, based on the 7 defining feature, and measure the overall effect in terms of specific metrics.
 
 ## Requirements
-In order to facilitate the execution of the Notebooks and of the scripts I have prepared an [`environment.yml`](./environment.yml) file to be used to install an environment with [Anaconda](https://www.continuum.io/downloads):
+In order to facilitate the execution of the Notebooks and of the scripts I have prepared an [`environment.yml`](./environment.yml) file to be used to install an environment with [Anaconda](https://www.anaconda.com/):
 
 ```sh
 conda env create -f environment.yml
